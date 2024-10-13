@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void printMultiplicationTable(int n) {
+static void printMultiplicationTable(int n) {
     for (int i = 1; i <= n; ++i) {
         for (int j = 1; j <= n; ++j) {
             cout << i << "*" << j << "=" << i * j << "\t";
